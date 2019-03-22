@@ -1,3 +1,8 @@
+---
+layout: page
+title: Distributed tracing with Sleuth and Zipkin
+---
+
 # Overview
 Distributed tracing is the technique for following a request from a client through all the microservices architecture back to the client.
 
