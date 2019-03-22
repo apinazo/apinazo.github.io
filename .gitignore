@@ -1,0 +1,10 @@
+
+# Created by https://www.gitignore.io/api/intellij+iml
+# Edit at https://www.gitignore.io/?templates=intellij+iml
+
+# User-specific stuff
+.idea
+.idea/**
+
+# File-based project format
+*.iml
