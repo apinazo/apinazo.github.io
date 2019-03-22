@@ -1,11 +1,9 @@
----
-title: Distributed tracing with Sleuth and Zipkin
----
+# Distributed tracing with Sleuth and Zipkin
 
-# Overview
+## Overview
 Distributed tracing is the technique for following a request from a client through all the microservices architecture back to the client.
 
-# Unifiying request logs with Sleuth
+## Unifiying request logs with Sleuth
 
 Sleuth will give a unique ID to the request, shared by every service implied in it, just as a breadcrumb. Each service would have its own ID so creting a hierarchy.
 
@@ -40,7 +38,7 @@ Properties:
 - probability: Percentage of requests to track, from 0 to 1. Set 1.0 to track them all.
 
 
-# Timing requests with Zipkin
+## Timing requests with Zipkin
 
 Zipkin is a tool for timing distributed requests, using Sleuth correlation IDs to identify them. 
 
@@ -59,7 +57,7 @@ When the other services are up and running they will start sending logs to Zipki
 **NOTE:** Services will not start to show in the select until there are requests to them.
 
 
-# Configuring Zipkin as a microservice
+## Configuring Zipkin as a microservice
 
 Sometimes it can be a better approach serving it as a microservice - specially if there is interest in customizing it.
 
@@ -107,18 +105,8 @@ public class ZipkinApp {
 }
 ```
 
-
-# Business logic distributed logs
+## Business logic distributed logs
 
 Before we learnt how to measere service response times taking advantage of distributed tracing. But what if we want to see the actual logs of a request implying several services?
 
 The solution is to store the logs in a time series database and then search for them by its correlation identifier which is genereated - as we already know - by Sleuth.
-
-# Storing distributed logs
-
-TODO. Kafka, ELK...
-
-
-# Searching distributed logs
-
-TODO: Kibana, Grafana...
