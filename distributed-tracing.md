@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Distributed tracing with Sleuth and Zipkin
 ---
 
