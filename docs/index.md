@@ -1,6 +1,11 @@
 
-# Spring Cloud
+Docs
+====
 
-## Logging
+Spring Cloud
+============
 
-[Distributed tracing](spring-cloud/distributed-tracing.md)
+Logging
+=======
+
+* [Distributed tracing](spring-cloud/distributed-tracing.md)
