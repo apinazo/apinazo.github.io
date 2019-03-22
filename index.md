@@ -2,7 +2,7 @@
 Spring Cloud
 ============
 
-[Distributed tracing](spring-cloud/distributed-tracing.html)
+[Distributed tracing](docs/spring-cloud/distributed-tracing.html)
 
 
 
