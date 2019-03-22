@@ -1,13 +1,9 @@
 
-Docs
-====
-
 Spring Cloud
-############
+============
 
 Logging
-=======
+#######
 
-Cosas
+`Distributed tracing <spring-cloud/distributed-tracing.md>`_
 
-_`Distributed tracing <spring-cloud/distributed-tracing.md>`_
