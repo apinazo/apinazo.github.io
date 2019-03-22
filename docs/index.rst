@@ -3,9 +3,11 @@ Docs
 ====
 
 Spring Cloud
-============
+############
 
 Logging
 =======
 
-* [Distributed tracing](spring-cloud/distributed-tracing.md)
+Cosas
+
+_`Distributed tracing <spring-cloud/distributed-tracing.md>`_
