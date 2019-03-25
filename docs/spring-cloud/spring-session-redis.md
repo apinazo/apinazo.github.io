@@ -45,13 +45,13 @@ Just add this to your application.yml:
 
 ```yaml
 spring:
-	session:
-		store:
-		  store-type: redis
-	redis:
-		host: 127.0.0.1
-		password: # There is no password by default.
-		port: 6379
+  session:
+    store:
+      store-type: redis
+  redis:
+    host: 127.0.0.1
+    password: # There is no password by default.
+    port: 6379
 ```
 
 ### Using Spring Session
