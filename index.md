@@ -10,7 +10,7 @@
 
 ## Logging 
 
-[Distributed tracing](docs/spring-cloud/distributed-tracing.html)
+[Distributed tracing with Zipkin](docs/spring-cloud/distributed-tracing.html)
 
 
 ## Security

@@ -15,10 +15,10 @@ Spring Cloud
 Logging
 #######
 
-`Distributed tracing <spring-cloud/distributed-tracing.html>`_
+`Distributed tracing with Zipkin <spring-cloud/distributed-tracing.html>`_
 
 
 Security
 ########
 
-`Spring Session with Redis <docs/spring-cloud/spring-session-redis.html>`_
+`Spring Session with Redis <spring-cloud/spring-session-redis.html>`_
