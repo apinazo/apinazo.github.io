@@ -89,7 +89,7 @@ public class SessionController {
     @GetMapping("/session")
     private String doSomething(HttpSession session) {
 
-        return session.getAttribute("x");
+        return (String) session.getAttribute("x");
     }
 }
 ```
